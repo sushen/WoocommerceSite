@@ -1,0 +1,38 @@
+2020-03-22T09:17:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/gravityforms/common.php:2693
+Stack trace:
+#0 /var/www/html/wp-content/plugins/gravityforms/common.php(2799): GFCommon::get_version_info(true)
+#1 /var/www/html/wp-content/plugins/gravityforms/gravityforms.php(705): GFCommon::check_update(Object(stdClass), true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(289): GFForms::check_update(Object(stdClass))
+#3 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Object(stdClass), Array)
+#4 /var/www/html/wp-includes/option.php(1801): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#5 /var/www/html/wp-includes/update.php(755): get_site_transient('update_plugins')
+#6 /var/www/html/wp-includes/class-wp-hook.php(287): _maybe_update_plugins('')
+#7 /var/www/html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#9 /var/www/html/wp-admin/admin.php(17 in /var/www/html/wp-content/plugins/gravityforms/common.php on line 2693
+
+2020-03-22T14:04:39+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/gravityforms/common.php:2693
+Stack trace:
+#0 /var/www/html/wp-content/plugins/gravityforms/common.php(2799): GFCommon::get_version_info(true)
+#1 /var/www/html/wp-content/plugins/gravityforms/gravityforms.php(705): GFCommon::check_update(Object(stdClass), true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(289): GFForms::check_update(Object(stdClass))
+#3 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Object(stdClass), Array)
+#4 /var/www/html/wp-includes/option.php(1801): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#5 /var/www/html/wp-admin/includes/plugin-install.php(450): get_site_transient('update_plugins')
+#6 /var/www/html/wp-admin/includes/class-wp-plugin-install-list-table.php(520): install_plugin_install_status(Object(stdClass))
+#7 /var/www/html/wp-admin/includes/class-wp-list-table.php(1273): WP_Plugin_Install_List_Table->display_rows()
+#8 /var/www/html/wp-admin in /var/www/html/wp-content/plugins/gravityforms/common.php on line 2693
+
+2020-03-22T14:09:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/gravityforms/common.php:2693
+Stack trace:
+#0 /var/www/html/wp-content/plugins/gravityforms/common.php(2799): GFCommon::get_version_info(true)
+#1 /var/www/html/wp-content/plugins/gravityforms/gravityforms.php(705): GFCommon::check_update(Object(stdClass), true)
+#2 /var/www/html/wp-includes/class-wp-hook.php(289): GFForms::check_update(Object(stdClass))
+#3 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters(Object(stdClass), Array)
+#4 /var/www/html/wp-includes/option.php(1801): apply_filters('site_transient_...', Object(stdClass), 'update_plugins')
+#5 /var/www/html/wp-includes/update.php(629): get_site_transient('update_plugins')
+#6 /var/www/html/wp-includes/update.php(680): wp_get_translation_updates()
+#7 /var/www/html/wp-includes/admin-bar.php(1021): wp_get_update_data()
+#8 /var/www/html/wp-includes/class-wp-hook.php(287): wp_admin_bar_updates_menu(Object(WP_Admin_Bar))
+#9 /var/www/html/wp-includes/cl in /var/www/html/wp-content/plugins/gravityforms/common.php on line 2693
+
